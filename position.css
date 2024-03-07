@@ -1,0 +1,27 @@
+.container{
+    border: 10px solid green;
+}
+.cell{
+    border: 3px solid red;
+    margin: 30px ;
+    padding: 10px;
+}
+.item1{
+    background: orange;
+    position: relative;
+   left: 0px;
+   width: 30;
+   ;
+}
+.item2{
+    
+    position: relative;
+    left: 20px;
+    width: 90;
+}
+.item3{
+    background: green;
+    position: relative;
+    left: 90px;
+    width: 90;
+}
