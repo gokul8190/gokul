@@ -1,0 +1,27 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1em;
+    background: green;
+    
+}
+@media screen and (max-width: 700px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (max-width: 500px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        
+}
+.option {
+    border: 5px solid;
+    padding: 4em;
+    background: red;
+    border-radius: 60%;
+    align-items: center;
+    font-size: 2em;
+}
