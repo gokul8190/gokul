@@ -1,44 +1,61 @@
 //const, var, let
 
 const PI = 3.1415;
+
 var x = 1;
-console.log(x)
+console.log(x);
 var y = 1.4;
-var z = "hello";
 console.log(y);
-var a = [a, y, z];
-var1st = [1, "3",[1,0], 4,8, true];
-console.log("1st");
+var z = "Hello";
+console.log(z);
+var a = [x, y, z];
+console.log(a);
+var     st = [1, "0", [1,2], 4.8, true];
+console.log(st);
 var obj = {
-    name: "gg",
-    job: "hacker",
-    age: 19,
-    adress: "banglore"
+    name:"Mr X",
+    job: "Hacker",
+    age: 23,
+    address: "bangaluru"
 }
 console.log(obj)
 
 let phone = {
-    company: {
-        name: "vivo",
-        country: "india"
-        } ,
-        name: "y35",
-        size: 5.5,
-        weight: 150,
-        color: ["yellow", "blue", "red"]
+    company:{
+        name: 'samsung',
+        country: 'south korea'
+    },
+    name:'galaxy',
+    size: 6.5,
+    weight: 200,
+    color: ['blue','red','green']
 }
 
-let str1 = "hello";
-let str2 = "world";
-let str3 = "hello";
-world ;
+let str1 = 'Hello';
+let str2 = "World";
+let str3 = 'Hello World';
 console.log(str3)
 
-let outcome = [[1, 3, 2, 4, 5, 6],
-               [4, 5, 3, 5, 4, 1],
-               [3, 4, 3, 2, 1, 5],
-               [2, 5, 6, 1, 3, 2],
-               [4, 4, 3, 6, 3, 1]]
-
-console.log(outcome[1][3])//5
+let outcome =[ [1, 3, 2, 4, 5, 6],
+               [4, 2, 1, 5, 3, 6],
+               [1, 6, 5, 2, 4, 3],
+               [4, 3, 1, 2, 6, 5],
+               [6, 5, 3, 8, 2, 1],
+               [4, 5, 6, 1, 2, 3]]
+console.log(outcome[1][3])//5     
 console.log(outcome[4][3])//8
+
+let D3 = [
+    [[1,2],
+     [1,2]
+    ],
+    [
+    [1,2],
+    [1,2]
+    ],
+    [
+    [1,2],
+    [1,2]
+    ]
+]
+//3*2
