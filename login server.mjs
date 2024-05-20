@@ -10,8 +10,7 @@ const writeToFile = async (data) => {
 }
 const hostname = '127.0.0.1';
 const port = 3000;
-
-const server = createServer( async (req, res) => {
+ const server = createServer( async (req, res) => {
   console.log('Received request...', req.url, req.method);
   
   if(req.url == '/') {
@@ -62,3 +61,7 @@ const server = createServer( async (req, res) => {
 server.listen(port, hostname, () => {
   console.log(`Server running at http://${hostname}:${port}/`);
 });
+
+
+
+
